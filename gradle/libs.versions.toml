@@ -1,0 +1,11 @@
+[versions]
+dokkaVersion = "2.0.0"
+benManesVersion = "0.52.0"
+testEventsVersions = "4.0.0"
+personioFrameworkVersion = "18.0.1+2025-09-10"
+
+[libraries]
+personio-framework-bom = { module = "com.personio.framework:bom", version.ref = "personioFrameworkVersion" }
+dokka = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokkaVersion"}
+benManesVersions = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "benManesVersion"}
+testEvents = { module = "com.adarshr.test-logger:com.adarshr.test-logger.gradle.plugin", version.ref = "testEventsVersions" }
