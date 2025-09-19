@@ -22,7 +22,7 @@ jobs:
 
     container:
       # A Docker image with Semgrep installed.
-      image: semgrep/semgrep-nightly:pr-4675-nonroot
+      image: semgrep/semgrep-nightly:pr-4675
 
 
     # Skip any PR created by dependabot to avoid permission issues:
